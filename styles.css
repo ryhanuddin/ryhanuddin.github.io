@@ -66,6 +66,10 @@ h1.page-title, .hero h1 {
 }
 .hero h1 span, .highlight { color: var(--primary-2); }
 .lead, .hero p { color: var(--muted); font-size: 1.05rem; margin: 0 0 24px; max-width: 760px; }
+.justify-text {
+  text-align: justify;
+  line-height: 1.8;
+}
 .hero-buttons, .btn-row, .hero-links, .cta-actions, .pub-links, .project-actions, .badge-wrap {
   display: flex; flex-wrap: wrap; gap: 12px;
 }
