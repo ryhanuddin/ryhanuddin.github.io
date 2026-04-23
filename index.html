@@ -120,7 +120,7 @@
       padding: 10px 16px;
       border-radius: 12px;
       background: var(--primary);
-      color: #fff;
+      color: #fff !important;
       font-weight: 700;
       box-shadow: var(--shadow);
     }
@@ -624,11 +624,13 @@
         <ul class="nav-links" id="navLinks">
           <li><a href="#home" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#research">Research</a></li>
           <li><a href="#publications">Publications</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a class="nav-cta" href="#" target="_blank">CV</a></li>
+          <li><a class="nav-cta" href="cv.pdf" target="_blank" rel="noopener noreferrer">CV</a></li>
         </ul>
       </nav>
     </div>
@@ -766,6 +768,45 @@
       </div>
     </section>
 
+    <section class="section" id="research">
+      <div class="container">
+        <h2 class="section-title">Research</h2>
+        <p class="section-subtitle">
+          My research focuses on secure and resilient intelligent networking for satellite, IoT, and cyber-physical environments.
+        </p>
+
+        <div class="about-grid">
+          <div class="card">
+            <h3>Software-Defined Network Security</h3>
+            <p>
+              I study programmable security mechanisms for software-defined environments, including controller anomaly detection, OpenFlow-aware observability, and mitigation against control-plane and routing-based attacks.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Federated Learning for Cyber Defense</h3>
+            <p>
+              My work explores federated learning for distributed intrusion detection, with emphasis on non-IID environments, cross-regional collaboration, and resilient model aggregation for security analytics.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>LEO Satellite and Space-IoT Security</h3>
+            <p>
+              I investigate resilient architectures for secure LEO satellite networking, especially in software-defined satellite network settings where security, latency, and adaptability must be jointly addressed.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Delay-Tolerant Networking</h3>
+            <p>
+              I work on DTN-aware detection and mitigation strategies for blackhole and disruption-based attacks using delivery indicators, canary probes, and hybrid reactive and pre-emptive analytics.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="section" id="publications">
       <div class="container">
         <h2 class="section-title">Selected Publications</h2>
@@ -782,9 +823,9 @@
               Research on controller anomaly detection using SDN control-plane semantics and machine learning.
             </p>
             <div class="pub-links">
-              <a href="#" target="_blank">Paper</a>
-              <a href="#" target="_blank">DOI</a>
-              <a href="#" target="_blank">Slides</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">Paper</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">DOI</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">Slides</a>
             </div>
           </article>
 
@@ -796,9 +837,9 @@
               Hybrid reactive and pre-emptive defense architecture integrating DTN-aware indicators and federated learning.
             </p>
             <div class="pub-links">
-              <a href="#" target="_blank">Paper</a>
-              <a href="#" target="_blank">DOI</a>
-              <a href="#" target="_blank">Code</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">Paper</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">DOI</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">Code</a>
             </div>
           </article>
 
@@ -810,8 +851,8 @@
               Protocol-aware observability and ML-driven intrusion detection for ROS-based robotic systems.
             </p>
             <div class="pub-links">
-              <a href="#" target="_blank">Paper</a>
-              <a href="#" target="_blank">DOI</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">Paper</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">DOI</a>
             </div>
           </article>
         </div>
@@ -833,7 +874,7 @@
               SDN-based federated learning framework for IoT-satellite networks, combining traffic regulation and privacy-aware classification.
             </p>
             <div class="project-actions">
-              <a href="https://github.com/ryhanuddin/FL-for-space" target="_blank">GitHub</a>
+              <a href="https://github.com/ryhanuddin/FL-for-space" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
           </article>
 
@@ -844,7 +885,7 @@
               DTN-aware blackhole detection using delivery ratio, hop anomaly, delay variance, and pre-emptive canary-style verification.
             </p>
             <div class="project-actions">
-              <a href="#" target="_blank">GitHub</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
           </article>
 
@@ -855,7 +896,7 @@
               Detection of abnormal SDN controller behavior using OpenFlow message semantics and controller-switch interaction features.
             </p>
             <div class="project-actions">
-              <a href="#" target="_blank">GitHub</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
           </article>
 
@@ -866,7 +907,7 @@
               Security analytics for robotic systems using SDN-assisted observability and protocol-specific intrusion indicators.
             </p>
             <div class="project-actions">
-              <a href="#" target="_blank">GitHub</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
           </article>
 
@@ -877,7 +918,7 @@
               Practical SDN experimentation involving OpenDaylight, Ryu, Open vSwitch, Mininet, and attack-mitigation workflows.
             </p>
             <div class="project-actions">
-              <a href="#" target="_blank">GitHub</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
           </article>
 
@@ -888,9 +929,52 @@
               Research architecture for resilient software-defined satellite networking with observability, IDS, and adaptive defense.
             </p>
             <div class="project-actions">
-              <a href="#" target="_blank">Details</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">Details</a>
             </div>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <p class="section-subtitle">
+          A combination of research, teaching, and professional systems experience.
+        </p>
+
+        <div class="about-grid">
+          <div class="card">
+            <h3>Graduate Assistant / Teaching Assistant</h3>
+            <p class="muted">Cleveland State University</p>
+            <p>
+              Supported teaching, student guidance, technical labs, and research-related academic activities in cybersecurity and computing courses.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>PhD Researcher</h3>
+            <p class="muted">Cleveland State University</p>
+            <p>
+              Conducted research on secure SDN, federated learning, LEO satellite network resilience, DTN blackhole defense, and controller anomaly detection using experimental and ML-based approaches.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Support and System Engineer</h3>
+            <p class="muted">Grameen CyberNet Ltd.</p>
+            <p>
+              Worked with systems administration, virtualization, Microsoft 365, Azure-related environments, client support, infrastructure operations, and multi-environment technical troubleshooting.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Technical and Security Projects</h3>
+            <p class="muted">Research and Industry-Oriented Work</p>
+            <p>
+              Built and evaluated SDN testbeds, ROS security workflows, DTN simulations, traffic analysis pipelines, and cloud or infrastructure-related support solutions.
+            </p>
+          </div>
         </div>
       </div>
     </section>
