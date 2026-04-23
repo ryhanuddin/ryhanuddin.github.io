@@ -173,6 +173,11 @@ footer { padding: 26px 0 40px; color: var(--muted); text-align: center; font-siz
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 18px;
   margin-top: 28px;
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 18px;
+  margin-top: 28px;
 }
 
 .skill-card {
