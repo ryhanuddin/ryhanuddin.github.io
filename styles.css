@@ -104,8 +104,19 @@ h1.page-title, .hero h1 {
   background: var(--surface); border: 1px solid var(--line); border-radius: 16px;
   padding: 16px; text-align: center;
 }
-.mini-card h3 { margin: 0 0 4px; color: var(--primary); font-size: 1.8rem; }
-.mini-card p { margin: 0; font-size: 0.86rem; color: var(--muted); line-height: 1.45; }
+.mini-card h3 {
+  margin: 0 0 6px;
+  color: var(--primary);
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+.mini-card p {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
 .section { padding: 56px 0; }
 .section-title { font-size: 2rem; margin: 0 0 10px; color: var(--primary); }
 .section-subtitle { margin: 0 0 28px; color: var(--muted); max-width: 760px; }
