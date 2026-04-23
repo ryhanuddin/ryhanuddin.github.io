@@ -209,6 +209,12 @@ footer { padding: 26px 0 40px; color: var(--muted); text-align: center; font-siz
   color: var(--primary);
   line-height: 1.4;
 }
+.skills-section-title {
+  margin-top: 44px;
+  margin-bottom: 10px;
+  color: var(--primary);
+  font-size: 2rem;
+} 
 @media (max-width: 980px) {
   .hero-grid, .grid-2, .grid-3, .about-grid, .project-grid { grid-template-columns: 1fr; }
   .hero-card { max-width: 560px; margin: 0 auto; }
