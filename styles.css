@@ -679,3 +679,64 @@ footer {
   margin-top: 0;
   margin-bottom: 8px;
 }
+.publication-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 18px;
+  margin-bottom: 12px;
+}
+
+.summary-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  background: #ffffff;
+  border: 1px solid #dbe6f5;
+  border-radius: 16px;
+  color: #0b3b7e;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(15, 45, 90, 0.06);
+}
+
+.summary-card strong {
+  font-size: 1.15rem;
+  color: #0b3b7e;
+}
+
+.summary-card span {
+  color: #52637a;
+  font-weight: 600;
+}
+
+.scholar-card {
+  background: #0b3b7e;
+  color: #ffffff;
+}
+
+.scholar-card:hover {
+  background: #0f4fa8;
+}
+.publications-list {
+  padding-top: 12px;
+}
+.chip-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.chip-link i {
+  font-size: 0.95rem;
+}
+.cta-actions .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cta-actions .btn i {
+  font-size: 0.95rem;
+}
