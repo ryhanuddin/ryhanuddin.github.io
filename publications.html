@@ -5,108 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ryhan Uddin | Publications</title>
   <link rel="stylesheet" href="styles.css" />
-  <style>
-    .pub-card {
-      display: grid;
-      grid-template-columns: 240px 1fr;
-      gap: 22px;
-      align-items: start;
-      background: var(--surface);
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      padding: 18px;
-      box-shadow: var(--shadow);
-      margin-bottom: 22px;
-    }
-
-    .pub-image-wrap {
-      width: 100%;
-    }
-
-    .pub-image {
-      width: 100%;
-      height: 170px;
-      object-fit: cover;
-      border-radius: 12px;
-      border: 1px solid var(--line);
-      background: #eef3fb;
-    }
-
-    .pub-type {
-      display: inline-block;
-      padding: 6px 10px;
-      border-radius: 8px;
-      background: #163d73;
-      color: #fff;
-      font-size: 0.76rem;
-      font-weight: 700;
-      letter-spacing: 0.3px;
-      margin-bottom: 12px;
-      text-transform: uppercase;
-    }
-
-    .pub-card-title {
-      margin: 0 0 8px;
-      color: var(--primary);
-      font-size: 1.45rem;
-      line-height: 1.35;
-    }
-
-    .pub-card-meta {
-      margin: 0 0 10px;
-      color: var(--muted);
-      font-size: 0.98rem;
-    }
-
-    .pub-card-desc {
-      margin: 0 0 14px;
-      color: var(--muted);
-      line-height: 1.75;
-    }
-
-    .doi-btn {
-      display: inline-flex;
-      align-items: center;
-      padding: 10px 14px;
-      border: 1px solid var(--line);
-      border-radius: 10px;
-      background: var(--surface);
-      color: var(--primary);
-      font-weight: 700;
-      transition: 0.2s ease;
-    }
-
-    .doi-btn:hover {
-      background: var(--surface-2);
-      transform: translateY(-1px);
-    }
-
-    @media (max-width: 860px) {
-      .pub-card {
-        grid-template-columns: 1fr;
-      }
-
-      .pub-image {
-        height: 220px;
-      }
-    }
-
-    @media (max-width: 560px) {
-      .pub-card-title {
-        font-size: 1.2rem;
-      }
-
-      .pub-image {
-        height: 190px;
-      }
-    }
-  </style>
 </head>
+
 <body>
   <header class="topbar">
     <div class="container nav">
       <a href="index.html" class="brand">Ryhan Uddin</a>
       <button class="menu-btn" id="menuBtn">Menu</button>
+
       <nav>
         <ul class="nav-links" id="navLinks">
           <li><a href="index.html">Home</a></li>
@@ -129,26 +35,26 @@
         <div class="eyebrow">Publications</div>
         <h1 class="page-title">Publications <span class="highlight">and research impact</span></h1>
 
-		<div class="publication-summary">
-		  <a
-			class="summary-card scholar-card"
-			href="https://scholar.google.com/citations?user=3mDq6sEAAAAJ"
-			target="_blank"
-			rel="noopener noreferrer"
-		  >
-			Google Scholar
-		  </a>
+        <div class="publication-summary">
+          <a
+            class="summary-card scholar-card"
+            href="https://scholar.google.com/citations?user=3mDq6sEAAAAJ"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Google Scholar
+          </a>
 
-		  <div class="summary-card">
-			<strong>9</strong>
-			<span>Published Papers</span>
-		  </div>
+          <div class="summary-card">
+            <strong>9</strong>
+            <span>Published Papers</span>
+          </div>
 
-		  <div class="summary-card">
-			<strong>230+</strong>
-			<span>Citations</span>
-		  </div>
-		</div>
+          <div class="summary-card">
+            <strong>230+</strong>
+            <span>Citations</span>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -159,16 +65,20 @@
           <div class="pub-image-wrap">
             <img src="images/publication1.jpg" alt="Placeholder image for publication 1" class="pub-image" />
           </div>
+
           <div>
-            <div class="pub-type">Journal Article</div>
+            <div class="pub-type journal-tag">Journal Article</div>
             <h3 class="pub-card-title">Denial of Service Attacks in Edge Computing Layers: Taxonomy, Vulnerabilities, Threats and Solutions</h3>
+
             <p class="pub-card-meta">
               <strong>R. Uddin</strong>, S. A. P. Kumar, and V. Chamola<br>
               <em>Ad Hoc Networks</em>, vol. 152, 103322, 2024
             </p>
+
             <p class="pub-card-desc">
               This paper presents a structured study of denial-of-service attacks across edge computing layers, highlighting attack taxonomy, security vulnerabilities, threat patterns, and available mitigation strategies.
             </p>
+
             <a class="doi-btn" href="https://doi.org/10.1016/j.adhoc.2023.103322" target="_blank" rel="noopener noreferrer">DOI</a>
           </div>
         </article>
@@ -177,16 +87,20 @@
           <div class="pub-image-wrap">
             <img src="images/publication2.jpg" alt="Placeholder image for publication 2" class="pub-image" />
           </div>
+
           <div>
-            <div class="pub-type">Journal Article</div>
+            <div class="pub-type journal-tag">Journal Article</div>
             <h3 class="pub-card-title">SDN-Based Federated Learning Approach for Satellite-IoT Framework to Enhance Data Security and Privacy in Space Communication</h3>
+
             <p class="pub-card-meta">
               <strong>R. Uddin</strong>, S. A. P. Kumar<br>
               <em>IEEE Journal of Radio Frequency Identification</em>, vol. 7, pp. 424–440, 2023
             </p>
+
             <p class="pub-card-desc">
               This work proposes an SDN-enabled federated learning framework for satellite-IoT communication, designed to improve security and privacy while supporting intelligent traffic monitoring and classification.
             </p>
+
             <a class="doi-btn" href="https://doi.org/10.1109/JRFID.2023.3279329" target="_blank" rel="noopener noreferrer">DOI</a>
           </div>
         </article>
@@ -195,16 +109,20 @@
           <div class="pub-image-wrap">
             <img src="images/publication3.jpg" alt="Placeholder image for publication 3" class="pub-image" />
           </div>
+
           <div>
-            <div class="pub-type">Conference Paper</div>
+            <div class="pub-type conference-tag">Conference Paper</div>
             <h3 class="pub-card-title">Federated Learning Based Intrusion Detection System for Satellite Communication</h3>
+
             <p class="pub-card-meta">
               <strong>R. Uddin</strong>, S. Kumar<br>
               <em>Proceedings of the 2023 IEEE Cognitive Communications for Aerospace Applications Workshop</em>, 2023
             </p>
+
             <p class="pub-card-desc">
               This paper explores federated learning for intrusion detection in satellite communication settings, focusing on collaborative security analytics in distributed and resource-constrained environments.
             </p>
+
             <a class="doi-btn" href="https://doi.org/10.1109/CCAAW57883.2023.10219228" target="_blank" rel="noopener noreferrer">DOI</a>
           </div>
         </article>
@@ -213,16 +131,20 @@
           <div class="pub-image-wrap">
             <img src="images/publication4.jpg" alt="Placeholder image for publication 4" class="pub-image" />
           </div>
+
           <div>
-            <div class="pub-type">Conference Paper</div>
+            <div class="pub-type conference-tag">Conference Paper</div>
             <h3 class="pub-card-title">Performance Analysis of SDN Based Firewalls: POX vs. ODL</h3>
+
             <p class="pub-card-meta">
               <strong>R. Uddin</strong>, M. F. Monir<br>
               <em>Proceedings of the 2019 5th International Conference on Advances in Electrical Engineering</em>, 2019
             </p>
+
             <p class="pub-card-desc">
               This study compares SDN-based firewall implementations using POX and OpenDaylight, examining their relative performance and practical implications in programmable network security environments.
             </p>
+
             <a class="doi-btn" href="https://doi.org/10.1109/ICAEE48663.2019.8975667" target="_blank" rel="noopener noreferrer">DOI</a>
           </div>
         </article>
@@ -231,16 +153,20 @@
           <div class="pub-image-wrap">
             <img src="images/publication5.jpg" alt="Placeholder image for publication 5" class="pub-image" />
           </div>
+
           <div>
-            <div class="pub-type">Conference Paper</div>
+            <div class="pub-type conference-tag">Conference Paper</div>
             <h3 class="pub-card-title">Implementation of a Click Based IDS on SDN-NFV Architecture and Performance Evaluation</h3>
+
             <p class="pub-card-meta">
               M. F. Monir, <strong>R. Uddin</strong>, D. Pan<br>
               <em>Proceedings of the 2021 IEEE International Black Sea Conference on Communications and Networking</em>, 2021
             </p>
+
             <p class="pub-card-desc">
               This paper presents the implementation and evaluation of a Click-based intrusion detection system integrated with an SDN-NFV architecture for programmable network security monitoring.
             </p>
+
             <a class="doi-btn" href="https://doi.org/10.1109/BlackSeaCom52164.2021.9527751" target="_blank" rel="noopener noreferrer">DOI</a>
           </div>
         </article>
