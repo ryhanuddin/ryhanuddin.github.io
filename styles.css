@@ -869,3 +869,25 @@ footer {
     height: 190px;
   }
 }
+
+/* Projects page spacing */
+.projects-section {
+  padding-top: 0;
+}
+
+.projects-section h1.technical-title {
+  margin-top: 54px;
+  margin-bottom: 28px;
+}
+
+/* Mobile spacing */
+@media (max-width: 560px) {
+  .projects-section {
+    padding-top: 0;
+  }
+
+  .projects-section h1.technical-title {
+    margin-top: 64px;
+    margin-bottom: 24px;
+  }
+}
